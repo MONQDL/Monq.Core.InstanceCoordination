@@ -11,7 +11,6 @@
     <Title>Monq.Core.InstanceCoordination</Title>
     <PackageId>Monq.Core.InstanceCoordination</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>instance coordination scaling rendezvous-hashing microservice</PackageTags>
     <PackageProjectUrl>https://github.com/MONQDL/Monq.Core.InstanceCoordination</PackageProjectUrl>

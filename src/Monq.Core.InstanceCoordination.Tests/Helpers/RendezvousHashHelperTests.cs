@@ -1,5 +1,5 @@
-using Xunit;
 using Monq.Core.InstanceCoordination.Helpers;
+using Xunit;
 
 namespace Monq.Core.InstanceCoordination.Tests.Helpers;
 

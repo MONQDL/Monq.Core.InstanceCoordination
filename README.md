@@ -28,7 +28,7 @@ using Monq.Core.InstanceCoordination.DependencyInjection;
 builder.Services.AddRedisClient(builder.Configuration.GetSection("Redis"));
 builder.Services.AddInstances(options =>
 {
-    options.AppName = "thresholds";
+    options.AppName = "MyApp";
     options.HeartbeatInterval = TimeSpan.FromSeconds(5);
     options.LeaseTtl = TimeSpan.FromSeconds(15);
 });
@@ -39,7 +39,7 @@ builder.Services.AddInstances(options =>
 ```json
 {
   "InstanceOptions": {
-    "AppName": "thresholds",
+    "AppName": "MyApp",
     "HeartbeatInterval": "00:00:05",
     "LeaseTtl": "00:00:15"
   }
@@ -144,7 +144,7 @@ The library provides a helper for creating the `candidates.owned` observable gau
 using System.Diagnostics.Metrics;
 using Monq.Core.InstanceCoordination.Extensions;
 
-var meter = new Meter("Thresholds");
+var meter = new Meter("MyApp");
 var ownedCandidates = Array.Empty<Candidate>();
 
 meter.CreateOwnedCandidatesGauge(() => ownedCandidates.Length);

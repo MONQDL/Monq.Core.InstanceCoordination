@@ -1,5 +1,5 @@
-using System.Diagnostics.Metrics;
 using Monq.Core.InstanceCoordination.Extensions;
+using System.Diagnostics.Metrics;
 using Xunit;
 
 namespace Monq.Core.InstanceCoordination.Tests.Extensions;

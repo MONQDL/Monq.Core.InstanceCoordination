@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".github/workflows/netcorelibrary.yml" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Monq.Core.InstanceCoordination.Tests/Monq.Core.InstanceCoordination.Tests.csproj" />
+    <Project Path="src/Monq.Core.InstanceCoordination/Monq.Core.InstanceCoordination.csproj" />
+  </Folder>
+</Solution>
